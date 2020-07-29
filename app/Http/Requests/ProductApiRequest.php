@@ -25,6 +25,7 @@ class ProductApiRequest extends ApiFormRequest
     public function rules()
     {
         return [
+            'is_active' => 'required'
         ];
     }
 }
